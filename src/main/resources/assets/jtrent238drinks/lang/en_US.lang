@@ -1,0 +1,23 @@
+itemGroup.DrinksTab=jtrent238's Drinks Mod
+
+item.ItemSoda.cokereg.name=Coca Cola
+item.ItemSoda.cokediet.name=Diet Coca Cola
+item.ItemSoda.drpepperdiet.name=Diet Dr Pepper
+item.ItemSoda.orangecurshreg.name=Orange Crush
+item.ItemSoda.mirindareg.name=Mirinda
+item.ItemSoda.mtndewreg.name=Mountain Dew
+item.ItemSoda.awdiet.name=Diet A&W Rootbeer
+item.ItemSoda.spritereg.name=Sprite
+item.ItemDrink.poweraidmtnbbreg.name=Powerade Mountain Berry Blast
+item.ItemDrink.snapplekiwireg.name=Snapple Kiwi
+item.ItemDrink.poweraidfruitpunchreg.name=Powerade Fruit Punch
+item.ItemDrink.poweraidorangereg.name=Powerade Orange
+item.ItemDrink.sunnydreg.name=SunnyD
+item.ItemDrink.simplyorangereg.name=Simply Orange
+item.ItemDrink.simplyapplereg.name=Simply Apple
+item.ItemDrink.smartwaterreg.name=Smart Water
+item.ItemDrink.liftreg.name=Lift
+item.ItemDrink.zicoreg.name=Zico
+item.ItemDrink.nestlepurelifereg.name=Nestle Pure Life
+
+tile.BlockVendingMachine.name=Vending Machine
