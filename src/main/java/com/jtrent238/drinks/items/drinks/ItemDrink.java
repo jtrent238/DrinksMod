@@ -92,5 +92,46 @@ public class ItemDrink extends ItemFood
     {
         return EnumAction.drink;
     }
+    
+    @Override
+	public ItemStack onEaten(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
+	{
+		if(!par3EntityPlayer.capabilities.isCreativeMode)
+		{
+			--par1ItemStack.stackSize;
+		}
+		
+		if (Loader.isModLoaded("enviromine")){
+		
+			if(!par2World.isRemote)
+			{
+				EnviroDataTracker tracker = EM_StatusManager.lookupTracker(par3EntityPlayer);
+			
+				if(tracker != null)
+				{
+					if(tracker.bodyTemp >= 0)
+					{
+						if(tracker.bodyTemp >= 30.1)
+						{
+							tracker.bodyTemp -= 0.1F;
+						}
+						tracker.hydrate(25F);
+					}
+				}
+			}
+		}
+		
+		if(!par3EntityPlayer.capabilities.isCreativeMode)
+		{
+			if(par1ItemStack.stackSize <= 0)
+			{
+				return new ItemStack(Items.glass_bottle);
+			}
+			
+			par3EntityPlayer.inventory.addItemStackToInventory(new ItemStack(Items.glass_bottle));
+		}
+		
+		return par1ItemStack;
+	}
 
 }
