@@ -59,6 +59,8 @@ public class Main
 	
 	public static int totaldrinkcount = sodacount + drinkcount;
 	
+	public static int moneycount = 1;
+	
 	@ForgeSubscribe(priority = EventPriority.NORMAL)
     public void eventHandler(RenderGameOverlayEvent event) {
 
