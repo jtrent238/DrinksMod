@@ -1,0 +1,12 @@
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 0
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 1
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 2
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 3
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 4
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 5
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 6
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 7
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 8
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 9
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 10
+jtrent238drinks:ItemDrink 3 1.4 false 0.4 11

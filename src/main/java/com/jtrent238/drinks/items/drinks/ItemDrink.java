@@ -21,8 +21,8 @@ import net.minecraft.world.World;
 
 public class ItemDrink extends ItemFood
 {
-	public static final String[] field_150923_a = new String[] {"poweraidmtnbbreg", "snapplekiwireg", "poweraidfruitpunchreg", "poweraidorangereg", "sunnydreg", "simplyorangereg", "simplyapplereg", "smartwaterreg", "liftreg", "zicoreg", "nestlepurelifereg"};
-    public static final String[] field_150921_b = new String[] {"poweraidmtnbbreg", "snapplekiwireg", "poweraidfruitpunchreg", "poweraidorangereg", "sunnydreg", "simplyorangereg", "simplyapplereg", "smartwaterreg", "liftreg", "zicoreg", "nestlepurelifereg"};
+	public static final String[] field_150923_a = new String[] {"poweraidmtnbbreg", "snapplekiwireg", "poweraidfruitpunchreg", "poweraidorangereg", "sunnydreg", "simplyorangereg", "simplyapplereg", "smartwaterreg", "liftreg", "zicoreg", "nestlepurelifereg", "kinleyreg"};
+    public static final String[] field_150921_b = new String[] {"poweraidmtnbbreg", "snapplekiwireg", "poweraidfruitpunchreg", "poweraidorangereg", "sunnydreg", "simplyorangereg", "simplyapplereg", "smartwaterreg", "liftreg", "zicoreg", "nestlepurelifereg", "kinleyreg"};
     public static final int[] field_150922_c = new int[] {1973019, 11743532, 3887386, 5320730, 2437522, 8073150, 2651799, 11250603, 4408131, 14188952, 4312372, 14602026, 6719955, 12801229, 15435844, 15790320};
     @SideOnly(Side.CLIENT)
     private IIcon[] field_150920_d;
@@ -31,7 +31,7 @@ public class ItemDrink extends ItemFood
     
 	public ItemDrink(int par1,int p_77647_1_, Item p_150895_1_)
 	{
-		super(5, 0, false);
+		super(5, 0, true);
 		// ItemStacks that store an NBT Tag Compound are limited to stack size of 1
 		//setMaxStackSize(1);
 		// you'll want to set a creative tab as well, so you can get your item

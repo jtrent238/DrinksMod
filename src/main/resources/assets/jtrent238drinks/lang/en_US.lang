@@ -8,6 +8,11 @@ item.ItemSoda.mirindareg.name=Mirinda
 item.ItemSoda.mtndewreg.name=Mountain Dew
 item.ItemSoda.awdiet.name=Diet A&W Rootbeer
 item.ItemSoda.spritereg.name=Sprite
+item.ItemSoda.ccreg.name=C & C
+item.ItemSoda.pepsimax.name=Pepsi Max
+item.ItemSoda.pepsidiet.name=Diet Pepsi
+item.ItemSoda.jollyranchgreenapplereg.name=Jolly Ranch Green Apple
+item.ItemSoda.chubbyorangereg.name=Chubby Orange Soda
 item.ItemDrink.poweraidmtnbbreg.name=Powerade Mountain Berry Blast
 item.ItemDrink.snapplekiwireg.name=Snapple Kiwi
 item.ItemDrink.poweraidfruitpunchreg.name=Powerade Fruit Punch
@@ -19,5 +24,7 @@ item.ItemDrink.smartwaterreg.name=Smart Water
 item.ItemDrink.liftreg.name=Lift
 item.ItemDrink.zicoreg.name=Zico
 item.ItemDrink.nestlepurelifereg.name=Nestle Pure Life
+item.ItemDrink.kinleyreg.name=Kinley
+
 
 tile.BlockVendingMachine.name=Vending Machine

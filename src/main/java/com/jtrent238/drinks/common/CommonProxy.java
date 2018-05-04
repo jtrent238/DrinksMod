@@ -1,5 +1,6 @@
 package com.jtrent238.drinks.common;
 
+import com.jtrent238.drinks.FluidLoader;
 import com.jtrent238.drinks.Main;
 
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -14,6 +15,7 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fluids.FluidRegistry;
 
 public class CommonProxy {
 	
@@ -28,6 +30,7 @@ public class CommonProxy {
         //System.out.print("common init fired!");
 	
 		//LogHelper.init();
+		
 		}
 	
 	
