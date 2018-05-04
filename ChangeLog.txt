@@ -1,0 +1,13 @@
+jtrent238's Drinks Mod Changelog
+
+1.0.0.1
+- Fixed Vending machine not dispensing drinks.
+- Changed Moutain Dew Texture
+- Added Fluids for drinks [WIP]
+- Added Soda C & C
+- Added Soda Pepsi Max
+- Added Soda Diet Pepsi
+- Added Soda Jolly Ranch Green Apple
+- Added Soda Chubby Orange Soda
+- Added Drink Kinley
+- Added Sodas to Loot Registry
