@@ -1,6 +1,0 @@
-item_Id:ItemSoda
-thirst_replenish:5
-thirst_saturation:1.2
-causes_poison:false
-poison_chance:0.1
-metadata:0
